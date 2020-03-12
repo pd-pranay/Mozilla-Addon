@@ -1,0 +1,29 @@
+{
+
+  "description": "Test Applications",
+  "manifest_version": 2,
+  "name": "TEST",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/mainIcon.jpg"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/mainIcon.jpg",
+    "default_title": "Test",
+    "default_popup": "html/popup.html"
+  },
+
+  "web_accessible_resources": [
+  ],
+  "background": {
+    "scripts": ["js/background.js"]
+  }
+
+}
